@@ -1,0 +1,20 @@
+{
+  "name": "spral-ai",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.3.16",
+    "@pinecone-database/pinecone": "^4.0.0",
+    "bun": "^1.1.42",
+    "dotenv": "^16.4.7",
+    "install": "^0.13.0",
+    "langchain": "^0.3.7",
+    "openai": "^4.77.0"
+  }
+}
